@@ -7,6 +7,10 @@ Vectorized solution to finding *first* element in a row meeting criterion. Keywo
     github (do not copy and paste from readme.md us the .sas file)
     https://tinyurl.com/y8mqtt98
     https://github.com/rogerjdeangelis/utl_vectorized_solution_to_finding_first_element_in_a_row_meeting_criterion
+    
+    https://tinyurl.com/yacj7kxv
+    https://communities.sas.com/t5/SAS-IML-Software-and-Matrix/Vectorized-solution-to-finding-first-element-in-a-row-meeting/m-p/464858
+
 
 
     INPUT
@@ -37,7 +41,7 @@ Vectorized solution to finding *first* element in a row meeting criterion. Keywo
 
       zroOne<-(have<.1)*1;   * binary matrix;
 
-      * find the first 1 and is rowMax is 0 then set value to 0;
+      * find the first 1 and use rowMax to set value to 0;
       want<-max.col(zroOne,"first")*rowMaxs(zroOne);
 
 
